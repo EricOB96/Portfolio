@@ -40,8 +40,8 @@ const Portfolio = () => {
     },
     {
       title: "Sudoku Solver",
-      description: "Python project to solve sudokus with back tracking algorithm",
-      tech: ["Python"],
+      description: "A desktop Sudoku solver application that uses advanced backtracking algorithms to solve any valid Sudoku puzzle. The application features an intuitive graphical interface where users can input their own puzzles or use built-in examples. It tracks solving time and provides instant solutions, making it perfect for both puzzle enthusiasts and those learning algorithmic problem-solving techniques.",
+      tech: ["Python", "Desktop Application Development", "Algorithmic Problem Solving", "GUI Development", "Backtracking Algorithm Implementation"],
       github: "https://github.com/EricOB96/Sudoku_Solver",
       image: "https://private-user-images.githubusercontent.com/91565520/447155347-9a4bd498-56f3-4ae8-9ade-f2b5d8883dfb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyMTM1NjMsIm5iZiI6MTc1MzIxMzI2MywicGF0aCI6Ii85MTU2NTUyMC80NDcxNTUzNDctOWE0YmQ0OTgtNTZmMy00YWU4LTlhZGUtZjJiNWQ4ODgzZGZiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDE5NDEwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTViZjY3ZWJkODlhNDc1ODU2ZWZkMmZlNjQ4NThkZWJlZGZmNmEwMzRjZTdiODMzNzdiYThiZWI5NjBkYzQzNzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hBMAmaTFyedZ4qsooeML8lJplaTcLoF9Y9qKJpSmGwk"
     },
@@ -140,7 +140,7 @@ const Portfolio = () => {
                 <img
                   src="/images/profile2.jpg"
                   alt="Eric - profile photo"
-                  className="w-full h-full rounded-full bg-slate-900 transition-transform hover:scale-110"
+                  className="w-full h-full object-cover rounded-full transition-transform hover:scale-110"
                 />
               </div>
             </div>
@@ -150,11 +150,11 @@ const Portfolio = () => {
             Eric O'Brien
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-8">
+          <p className="text-xl md:text-2xl text-white-300 mb-8">
             Computer Science Graduate & Looking for Full-time employment
           </p>
 
-          <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
+          <p className="text-lg text-white-400 mb-12 max-w-2xl mx-auto">
             Highly motivated Computer Science graduate with hands-on experience in technical support,
             enterprise software development, and team leadership.
             Passionate about creating innovative solutions using modern technologies and Agile methodologies.
@@ -199,14 +199,14 @@ const Portfolio = () => {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-white-300 leading-relaxed">
                 I'm a Computer Science graduate from Technological University Dublin with a 2:1 degree,
                 bringing hands-on experience from internships at SAP and Uisce Éireann. My journey combines
                 technical expertise with proven leadership skills, having managed teams and delivered
                 enterprise-level solutions.
               </p>
 
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-white-300 leading-relaxed">
                 I’m always seeking new and challenging projects to expand my skills. Currently,
                 I’m collaborating with an artist on the development of a 3D game using Unreal Engine. Our goal is to release the game across multiple platforms by next year.
               </p>
@@ -261,7 +261,7 @@ const Portfolio = () => {
 
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3">{project.title}</h3>
-                  <p className="text-gray-400 mb-4 text-sm">{project.description}</p>
+                  <p className="text-white-400 mb-4 text-sm">{project.description}</p>
 
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((tech, techIndex) => (
