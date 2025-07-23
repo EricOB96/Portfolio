@@ -133,14 +133,14 @@ const Portfolio = () => {
 
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-6">
-        <div className="text-center max-w-4xl mx-auto">
+        <div className="text-center max-w-4xl mx-auto mt-14 md:mt-0">
           <div className="mb-8 relative">
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-blue-400 to-purple-600 p-1 ">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
                 <img
                   src={`${process.env.PUBLIC_URL}/images/profile2.jpg`}
                   alt="Eric - profile photo"
-                  className="w-full h-full object-cover rounded-full transition-transform hover:scale-110 mt-28 sm:mt-10"
+                  className="w-full h-full object-cover rounded-full transition-transform hover:scale-110"
                 />
               </div>
             </div>
