@@ -36,14 +36,14 @@ const Portfolio = () => {
       tech: ["Godot", "GDScript", "C#", "AR/VR", "Git", "Design Thinking"],
       github: "https://github.com/EricOB96/FYP_Guitar_Tutor",
       demo: "https://youtube.com/shorts/hV5oY7GmVQ4",
-      image: "https://private-user-images.githubusercontent.com/91565520/447535679-4f1cff15-fdbe-4b35-bdfd-04ef1af8b7ca.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyMTM0NTIsIm5iZiI6MTc1MzIxMzE1MiwicGF0aCI6Ii85MTU2NTUyMC80NDc1MzU2NzktNGYxY2ZmMTUtZmRiZS00YjM1LWJkZmQtMDRlZjFhZjhiN2NhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDE5MzkxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBkMzE4ODk0MTRlNjBjYzExZWFiOWI5MTM5ZmUxYzE5MjVlNTFlNjI2ZTc5OTU0MzViNzRhODJmOWNhMmMyYTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.yOAgSpk0njubdd9qWWLc3NN-b8NV-sEArGfRZjERVSA"
+      image: "/images/FYP.png"
     },
     {
       title: "Sudoku Solver",
       description: "A desktop Sudoku solver application that uses advanced backtracking algorithms to solve any valid Sudoku puzzle. The application features an intuitive graphical interface where users can input their own puzzles or use built-in examples. It tracks solving time and provides instant solutions, making it perfect for both puzzle enthusiasts and those learning algorithmic problem-solving techniques.",
       tech: ["Python", "Desktop Application Development", "Algorithmic Problem Solving", "GUI Development", "Backtracking Algorithm Implementation"],
       github: "https://github.com/EricOB96/Sudoku_Solver",
-      image: "https://private-user-images.githubusercontent.com/91565520/447155347-9a4bd498-56f3-4ae8-9ade-f2b5d8883dfb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyMTM1NjMsIm5iZiI6MTc1MzIxMzI2MywicGF0aCI6Ii85MTU2NTUyMC80NDcxNTUzNDctOWE0YmQ0OTgtNTZmMy00YWU4LTlhZGUtZjJiNWQ4ODgzZGZiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDE5NDEwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTViZjY3ZWJkODlhNDc1ODU2ZWZkMmZlNjQ4NThkZWJlZGZmNmEwMzRjZTdiODMzNzdiYThiZWI5NjBkYzQzNzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hBMAmaTFyedZ4qsooeML8lJplaTcLoF9Y9qKJpSmGwk"
+      image: "/images/Sudoku.png"
     },
     {
       title: "QR Generator & Scanner app",
@@ -51,7 +51,7 @@ const Portfolio = () => {
       tech: ["HTML", "CSS", "JavaScript", "QRious library", "jsQR library", "MediaDevices API", "Canvas API"],
       github: "https://github.com/EricOB96/QR-Generator",
       demo: "https://ericob96.github.io/QR-Generator/",
-      image: "https://private-user-images.githubusercontent.com/91565520/447630575-05c00e7b-6438-413b-b2bd-5b1a669ed9cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyMTM2MDAsIm5iZiI6MTc1MzIxMzMwMCwicGF0aCI6Ii85MTU2NTUyMC80NDc2MzA1NzUtMDVjMDBlN2ItNjQzOC00MTNiLWIyYmQtNWIxYTY2OWVkOWNmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDE5NDE0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJlNzZjMzJmODAyZjBkZTExNTgxNzJiODIyOWRmNmE3NWU0NWQzM2I5YjU2YjNlMmI2NjY0MWFiOTA1N2Q4NWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.kIwz50k_osSycxzjhgaE2pC2qO-Fpq2wR5w2hJXP8GE"
+      image: "images/QR_Gen.png"
     },
     {
       title: "VR Bird Feeding Simulation",
@@ -59,7 +59,7 @@ const Portfolio = () => {
       tech: ["Godot", "GDScript", "AR/VR", "Git", "Design Thinking"],
       github: "https://github.com/EricOB96/miniature-rotary-phone/tree/CA2/minature-rotary-phone/CA2",
       demo: "https://youtu.be/QdOu5TnKNAw",
-      image: "https://private-user-images.githubusercontent.com/91565520/441917980-e0e75901-b07d-4087-96bd-d1c46d15106d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyMTM2NzcsIm5iZiI6MTc1MzIxMzM3NywicGF0aCI6Ii85MTU2NTUyMC80NDE5MTc5ODAtZTBlNzU5MDEtYjA3ZC00MDg3LTk2YmQtZDFjNDZkMTUxMDZkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDE5NDI1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI0ZDdhMjRjYTMwNjIzZWMyYmQ5MDNmYWVkNmZlNWRhNjMyZjliYzdlMzllMjQ4NGI0YzUxZGQ3NWYzYWI3NTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.eB4R6M4Zr1npg9px4R-bAH319HGH8Ois5tfvfOCX09k"
+      image: "images/BirdFeeding.png"
     },
     {
       title: "Music Vizualizer",
@@ -140,7 +140,7 @@ const Portfolio = () => {
                 <img
                   src={`${process.env.PUBLIC_URL}/images/profile2.jpg`}
                   alt="Eric - profile photo"
-                  className="w-full h-full object-cover rounded-full transition-transform hover:scale-110"
+                  className="w-full h-full object-cover rounded-full transition-transform hover:scale-110 mt-28 sm:mt-10"
                 />
               </div>
             </div>
