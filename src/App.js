@@ -138,7 +138,7 @@ const Portfolio = () => {
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-blue-400 to-purple-600 p-1 ">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
                 <img
-                  src="/images/profile2.jpg"
+                  src="/images/Profile2.jpg"
                   alt="Eric - profile photo"
                   className="w-full h-full object-cover rounded-full transition-transform hover:scale-110"
                 />
