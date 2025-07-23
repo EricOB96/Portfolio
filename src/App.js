@@ -337,7 +337,7 @@ const Portfolio = () => {
           </div>
 
           <a
-            href="/EricOBrien_CV_2025.pdf"
+            href={`${process.env.PUBLIC_URL}/EricOBrien_CV_2025.pdf`}
             download
             className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105"
           >
