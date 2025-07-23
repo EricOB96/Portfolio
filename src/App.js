@@ -36,14 +36,14 @@ const Portfolio = () => {
       tech: ["Godot", "GDScript", "C#", "AR/VR", "Git", "Design Thinking"],
       github: "https://github.com/EricOB96/FYP_Guitar_Tutor",
       demo: "https://youtube.com/shorts/hV5oY7GmVQ4",
-      image: "/images/FYP.png"
+      image: "images/FYP.png"
     },
     {
       title: "Sudoku Solver",
       description: "A desktop Sudoku solver application that uses advanced backtracking algorithms to solve any valid Sudoku puzzle. The application features an intuitive graphical interface where users can input their own puzzles or use built-in examples. It tracks solving time and provides instant solutions, making it perfect for both puzzle enthusiasts and those learning algorithmic problem-solving techniques.",
       tech: ["Python", "Desktop Application Development", "Algorithmic Problem Solving", "GUI Development", "Backtracking Algorithm Implementation"],
       github: "https://github.com/EricOB96/Sudoku_Solver",
-      image: "/images/Sudoku.png"
+      image: "images/Sudoku.png"
     },
     {
       title: "QR Generator & Scanner app",
